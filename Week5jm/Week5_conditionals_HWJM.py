@@ -53,6 +53,4 @@ match num:
     case 9:
         print('Nine')
 
-#Using word list:
 
-#Using word dictionary:
