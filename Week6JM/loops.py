@@ -69,6 +69,16 @@ for i in range(1,11):
     print(f'{num} * {i} = {num*i}')
 '''
 ### Print Numbers Reversed ###
+'''
 print('20-10 in Descending Order: ')
 for i in range (20, 9, -1):
     print(i)
+'''
+### NESTED LOOPS ###
+'''
+nums = [1, 2, 3, 4]
+
+for n in nums:
+    for letter in 'abc':
+        print(n, letter)
+'''
