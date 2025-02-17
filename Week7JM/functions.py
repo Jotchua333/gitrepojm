@@ -58,7 +58,19 @@ def sum_odd(start, end):
             total = total+i
     return total
 # Asks user for ranges and prints the return from sum_odd
+'''
 starting = int(input('enter the lowest value in the range: '))
 ending = int(input('enter the highest number in the range: '))
 total = sum_odd(starting, ending)
 print(f'Total of all odd numbers is: {total}')
+'''
+
+def add(num1, num2):
+    return num1+num2
+def multiply(x, y):
+    print(x*y)
+
+add(1, 2)
+print(add(1,2))
+multiply(3,4)
+print(multiply(3, 4))
