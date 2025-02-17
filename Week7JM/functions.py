@@ -65,6 +65,8 @@ total = sum_odd(starting, ending)
 print(f'Total of all odd numbers is: {total}')
 '''
 
+
+'''
 def add(num1, num2):
     return num1+num2
 def multiply(x, y):
@@ -74,3 +76,4 @@ add(1, 2)
 print(add(1,2))
 multiply(3,4)
 print(multiply(3, 4))
+'''
