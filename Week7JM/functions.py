@@ -77,3 +77,14 @@ print(add(1,2))
 multiply(3,4)
 print(multiply(3, 4))
 '''
+
+def scope_test(y):
+    #local x
+    x=1
+    x+=1
+    print(x)
+
+#global x
+x=5
+scope_test(x)
+print(x)
