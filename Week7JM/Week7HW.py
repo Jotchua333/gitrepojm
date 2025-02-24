@@ -61,37 +61,34 @@ either "Yes" or "No," depending on whether you can or cannot form a triangle wit
 given lengths
 '''
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+def is_triangle(num1, num2, num3):
+    if num1 > num2+num3:
+        print('No')
+        return
+    elif num2 > num1+num3:
+        print('No')
+        return
+    elif num3 > num1 + num2:
+        print('No')
+        return
+    elif num1 == num2+num3:
+        print('Degenerate Triangle')
+        return
+    elif num2 == num1+num3:
+        print('Degenerate Triangle')
+        return
+    elif num3 == num1+num2:
+        print('Degenerate Triangle')
+        return
+    else:
+        print('Yes')
+        return
+'''
+number1 = int(input('Enter the first side length: '))
+number2 = int(input('Enter the second side length: '))
+number3 = int(input('Enter the third side length: '))
+is_triangle(number1, number2, number3)
+'''
 
 ### Q5:
 def triangle(num):
@@ -100,7 +97,10 @@ def triangle(num):
         trisum +=i
         if trisum == num:
             return True
+    return False
 
+number = int(input('Enter the Number: '))
+print(f'Is Triangular: {triangle(number)}')
 
 
 
