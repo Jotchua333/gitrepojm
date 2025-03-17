@@ -1,12 +1,5 @@
 """
 def calc(op, x, y):
-    '''
-
-    :param op: (operation)
-    :param x:
-    :param y:
-    :return:
-    '''
     return op(x, y)
 
 def add(a, b):
@@ -84,3 +77,6 @@ num_list = [3, 2, 6, 8, 4, 6, 2, 9]
 even_nums = filter(is_even, num_list)
 print(even_nums) #Returns filter object
 print(list(even_nums))
+
+evennums = filter(lambda n: n%2 == 0, num_list)
+print(list(evennums))
