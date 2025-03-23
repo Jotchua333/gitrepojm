@@ -9,7 +9,7 @@ print(mult_nums(num1, num2))
 ### Q2
 '''
 num1 = int(input('Enter first number: '))
-num2 = int(input('Enter second numberL '))
+num2 = int(input('Enter second number: '))
 
 print((lambda a,b: a-b)(num1, num2))
 '''
@@ -52,3 +52,10 @@ print(part3)
 '''
 
 ### Q7
+'''
+nums = [3, 2, 6, 8, 4, 6, 2, 9]
+evens = list(filter(lambda x: x%2 == 0, nums))
+odds = list(filter(lambda a: a%2 != 0, nums))
+print(f'Count of evens: {len(evens)}')
+print(f'Count of odds: {len(odds)}')
+'''
