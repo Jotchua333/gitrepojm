@@ -64,15 +64,16 @@ nums = [1, 1, 1]
 '''
 WRITE A RECURSIVE FUNCTION TO REVERSE THE ELEMENTS OF A LIST
 '''
+nums = [10, 20, 30]
 def reverse_recur(a):
     if len(a) == 1:
-        return a[0]
+        return a
     else:
-        return
+        return a[-1] + reverse_recur(a[:-1])
 
 
 
-numbers = [31, 18, 72, 79, 3, 18, 92, 11, 44, 56, 44, 28]
+print(reverse_recur(nums))
 
 #Bubble Sort
 
