@@ -1,4 +1,4 @@
-import
+
 '''
 Another way of solving problems wherein a function calls itself
 with a slight modification to parameters every time until a base case is
@@ -87,14 +87,14 @@ def bubble_sort(num_list):
     #i see holes in this
     return num_list
 
-print(bubble_sort(numbers))
+#print(bubble_sort(numbers))
 
 #Quick Sort - Find median, Create 3 new lists based on the following conditions:
     #List 1 - all numbers < median
     #List 2 - all numbers = median
     #list 3 - all numbers > median
 #Repeat steps 1 and 2 until there is only one element left in each of the left and right lists
-print(Median(nums[0], nums[len(nums)//2], nums[-1]))
+#print(Median(nums[0], nums[len(nums)//2], nums[-1]))
 
 #[41] [44] [56, 72, 79, 92]
 #[41] [44] [56, 72] [79] [92]
