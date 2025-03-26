@@ -76,25 +76,11 @@ numbers = [31, 18, 72, 79, 3, 18, 92, 11, 44, 56, 44, 28]
 
 #Bubble Sort
 
-def bubble_sort(num_list):
-    for i in range(0, (len(num_list)-1)):
-        if num_list[i] > num_list[i+1]:
-            temp = num_list[i]
-            num_list[i] = num_list[i+1]
-            num_list[i+1] = temp
-        else:
-            pass
-    #i see holes in this
-    return num_list
-
-#print(bubble_sort(numbers))
-
 #Quick Sort - Find median, Create 3 new lists based on the following conditions:
     #List 1 - all numbers < median
     #List 2 - all numbers = median
     #list 3 - all numbers > median
 #Repeat steps 1 and 2 until there is only one element left in each of the left and right lists
-#print(Median(nums[0], nums[len(nums)//2], nums[-1]))
 
 #[41] [44] [56, 72, 79, 92]
 #[41] [44] [56, 72] [79] [92]
