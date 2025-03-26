@@ -1,3 +1,4 @@
+import
 '''
 Another way of solving problems wherein a function calls itself
 with a slight modification to parameters every time until a base case is
@@ -10,6 +11,8 @@ Iterative --> while(as long as a given condition is satisfied)
       = 5 + 5 + (5 * 2)
       = 5 + 5 + 5 (5 * 1)
 '''
+from statistics import median
+
 
 def mult_recur(a, b):
     if b == 1:
@@ -56,22 +59,46 @@ def list_recur(num_list):
         return num_list[0] + list_recur(num_list[1:])
 
 nums = [1, 1, 1]
-print(list_recur(nums))
+#print(list_recur(nums))
 
 '''
 WRITE A RECURSIVE FUNCTION TO REVERSE THE ELEMENTS OF A LIST
 '''
 def reverse_recur(a):
     if len(a) == 1:
+        return a[0]
+    else:
         return
 
 
 
+numbers = [31, 18, 72, 79, 3, 18, 92, 11, 44, 56, 44, 28]
 
+#Bubble Sort
 
+def bubble_sort(num_list):
+    for i in range(0, (len(num_list)-1)):
+        if num_list[i] > num_list[i+1]:
+            temp = num_list[i]
+            num_list[i] = num_list[i+1]
+            num_list[i+1] = temp
+        else:
+            pass
+    #i see holes in this
+    return num_list
 
+print(bubble_sort(numbers))
 
+#Quick Sort - Find median, Create 3 new lists based on the following conditions:
+    #List 1 - all numbers < median
+    #List 2 - all numbers = median
+    #list 3 - all numbers > median
+#Repeat steps 1 and 2 until there is only one element left in each of the left and right lists
+print(Median(nums[0], nums[len(nums)//2], nums[-1]))
 
+#[41] [44] [56, 72, 79, 92]
+#[41] [44] [56, 72] [79] [92]
+#[41] [44] [56] [72] [79] [92]
 
 
 
