@@ -10,13 +10,15 @@ import os
 #os.chdir('C:\\Users\\JOM350\\OneDrive - University of Pittsburgh\\Spring2025\\PROGRAMMING')
 
 #List all files in current location:
+#print(os.listdir())
+
+#Create a new directory
+#os.mkdir('os_demo1')
+#print(os.listdir())
+
+#Create hierarchical directories
+os.makedirs('os_demo4/sub1')
 print(os.listdir())
-
-
-
-
-
-
 
 
 
