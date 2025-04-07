@@ -11,8 +11,8 @@ def find_index(search_list, target_elem):
     return -1
 
 
-sample = ['apple', 'banana', 'orange', 'kiwi']
-print(find_index(sample, 'orange'))
+#sample = ['apple', 'banana', 'orange', 'kiwi']
+#print(find_index(sample, 'orange'))
 
 
 
