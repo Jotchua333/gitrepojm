@@ -29,6 +29,6 @@ from find_index_module import find_index
 
 sample = ['apple', 'banana', 'orange', 'kiwi']
 req_idx = find_index(sample, 'kiwi')
-print(req_idx)
+#print(req_idx)
 
 print('Running modules intro: ', __name__)
