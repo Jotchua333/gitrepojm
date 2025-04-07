@@ -17,10 +17,14 @@ import os
 #print(os.listdir())
 
 #Create hierarchical directories
-os.makedirs('os_demo4/sub1')
-print(os.listdir())
+#os.makedirs('os_demo4/sub1')
+#print(os.listdir())
 
+#To remove directory
+#os.rmdir('os_demo1')
 
+#To remove multiple at a time
+#os.removedirs('os_demo3/sub1')
 
 
 
