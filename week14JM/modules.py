@@ -32,3 +32,4 @@ req_idx = find_index(sample, 'kiwi')
 #print(req_idx)
 
 print('Running modules intro: ', __name__)
+#Dunder variable(__name__), variables created by python interpreter
