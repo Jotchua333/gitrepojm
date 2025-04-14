@@ -29,5 +29,7 @@ logging.warning(f'Sum of {num1} and {num2} is {addres}')
 logging.warning(f'Difference of {num1} and {num2} is {subres}')
 
 #CHange logging level to debug
-logging.basicConfig(level=logging.DEBUG)
+#WRite log to file
+#Change format to include timestamp
+logging.basicConfig(filename = 'logging_sample.log', level=logging.DEBUG, format = '%(asctime)s:%(levelname)s: %(message)s')
 
